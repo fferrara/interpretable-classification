@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[requires]
+python_version = "3.6"
+
+[packages]
+numpy = "==1.14.5"
+pandas = "*"
+cython = "*"
+sklearn = {git = "https://github.com/scikit-learn/scikit-learn.git", editable = true}
+scikit-optimize = "*"
+xgboost = "*"
+pdpbox = "*"
+"eli5" = "*"
+
+[dev-packages]
+"flake8" = "*"
